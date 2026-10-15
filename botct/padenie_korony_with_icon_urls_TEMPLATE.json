@@ -1,0 +1,286 @@
+[
+  {
+    "id": "_meta",
+    "name": "Падение Короны",
+    "author": "Авторский сценарий",
+    "bootlegger": [
+      "Корона: один раз за игру действующий Демон вместо действия предлагает живому доброму игроку стать злым Демоном второго вида, предсказанного Летописцем. При согласии старый Демон умирает. Корона расходуется; Клятвопреступник использует ту же Корону.",
+      "Апостолы: при 10–12 игроках их 3, при 13–15 — 4. Их личности неизвестны даже Антихристу. После первой успешной метки объявите о культе. Победа Гордыни проверяется в конце следующего дня.",
+      "Алчность: одновременно только одна метка. Если помеченный добрый жив в финальной тройке, зло побеждает в конце дня, если он не был казнён.",
+      "Воскрешённый сохраняет команду и роль; одноразовые способности не восстанавливаются. Смерть не превращает воскрешённых в злых.",
+      "Обет неведения является Дураком для эффекта Задиры. [+ Дурак] у Задиры означает обязательное включение Обета неведения с учётом состава и ведущего."
+    ]
+  },
+  {
+    "id": "pknecromancer",
+    "name": "Маг — Некромант",
+    "team": "townsfolk",
+    "ability": "Каждую ночь* выбери игрока. Если он умрёт этой ночью, получи отметку. После 2 отметок можешь один раз воскресить мёртвого доброго игрока как Фамильяра.",
+    "edition": "pk",
+    "otherNight": 45,
+    "reminders": [
+      "Попадание 1",
+      "Попадание 2"
+    ],
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pknecromancer.png"
+  },
+  {
+    "id": "pkprincess",
+    "name": "Императрица — Принцесса",
+    "team": "townsfolk",
+    "ability": "Ты не можешь умереть от способности Демона. Если Демон выбирает тебя целью, узнаёшь его вид. Передача Короны тебе не срабатывает.",
+    "edition": "pk",
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkprincess.png"
+  },
+  {
+    "id": "pkprotector",
+    "name": "Император — Защитник",
+    "team": "townsfolk",
+    "ability": "Один раз за игру при номинации защищаешь игрока. Если он добрый, его нельзя казнить сегодня; если злой, ты можешь умереть следующей ночью.",
+    "edition": "pk",
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkprotector.png"
+  },
+  {
+    "id": "pkwitchhunter",
+    "name": "Иерофант — Охотник",
+    "team": "townsfolk",
+    "ability": "Один раз за игру днём публично стреляешь в игрока. Если он Приспешник или Апостол, он умирает. Иначе умираешь ты. Это не считается казнью.",
+    "edition": "pk",
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkwitchhunter.png"
+  },
+  {
+    "id": "pkfamiliar",
+    "name": "Влюблённые — Фамильяр",
+    "team": "townsfolk",
+    "ability": "В первую ночь узнаёшь доброго игрока. Если он должен умереть ночью, можешь умереть вместо него. Воскрешённый Некромантом, защищаешь Некроманта и теряешь голос.",
+    "edition": "pk",
+    "firstNight": 55,
+    "reminders": [
+      "Защищаемый"
+    ],
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkfamiliar.png"
+  },
+  {
+    "id": "pkbrawler",
+    "name": "Колесница — Задира",
+    "team": "townsfolk",
+    "ability": "Каждую ночь* выбери игрока: его способность не действует этой ночью. Нельзя выбирать одного дважды подряд. Если выбрал Дурака, он навсегда теряет способность. [+ Дурак]",
+    "edition": "pk",
+    "otherNight": 20,
+    "setup": true,
+    "reminders": [
+      "Побит",
+      "Дурак лишён дара"
+    ],
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkbrawler.png"
+  },
+  {
+    "id": "pkflagellant",
+    "name": "Сила — Флагеллянт",
+    "team": "townsfolk",
+    "ability": "Каждую ночь* выбери игрока. Если он должен получить отравление или метку Алчности этой ночью, вместо него получаешь ты и узнаёшь об этом.",
+    "edition": "pk",
+    "otherNight": 15,
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkflagellant.png"
+  },
+  {
+    "id": "pkpatrol",
+    "name": "Отшельник — Патрульный",
+    "team": "townsfolk",
+    "ability": "Каждую ночь* выбери двух игроков. Узнаёшь, применял ли хотя бы один из них способность к другому игроку этой ночью.",
+    "edition": "pk",
+    "otherNight": 90,
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkpatrol.png"
+  },
+  {
+    "id": "pkastrologer",
+    "name": "Колесо Фортуны — Астролог",
+    "team": "townsfolk",
+    "ability": "Каждую ночь* выбери игрока. Узнаёшь, менялась ли его роль или команда с начала игры.",
+    "edition": "pk",
+    "otherNight": 80,
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkastrologer.png"
+  },
+  {
+    "id": "pkgeographer",
+    "name": "Правосудие — Географ",
+    "team": "townsfolk",
+    "ability": "Каждую ночь выбери половину оставшейся области поиска. Узнаёшь, есть ли в ней Демон. При смене Демона поиск начинается заново.",
+    "edition": "pk",
+    "firstNight": 70,
+    "otherNight": 70,
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkgeographer.png"
+  },
+  {
+    "id": "pklamb",
+    "name": "Повешенный — Агнец",
+    "team": "townsfolk",
+    "ability": "Если тебя казнят, следующей ночью Демон не может убить своей способностью. Если умираешь ночью, узнаёшь одного живого игрока, который мог быть причиной твоей смерти.",
+    "edition": "pk",
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pklamb.png"
+  },
+  {
+    "id": "pkseer",
+    "name": "Звезда — Провидица",
+    "team": "townsfolk",
+    "ability": "Каждую ночь* выбери живого игрока. Узнаёшь, есть ли на нём действующие эффекты (отравление, метки, защита и т. п.). Дурака не обнаруживаешь.",
+    "edition": "pk",
+    "otherNight": 95,
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkseer.png"
+  },
+  {
+    "id": "pkpaladin",
+    "name": "Солнце — Паладин",
+    "team": "townsfolk",
+    "ability": "Каждую ночь* выбери игрока, отличного от выбранного прошлой ночью. Если он добрый, он защищён от смерти этой ночью. Если злой, ты можешь быть отравлен до заката.",
+    "edition": "pk",
+    "otherNight": 10,
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkpaladin.png"
+  },
+  {
+    "id": "pkjudge",
+    "name": "Суд — Королевский судья",
+    "team": "townsfolk",
+    "ability": "В первую ночь узнаёшь трёх игроков, среди которых есть хотя бы один Приспешник. Если Приспешников нет, узнаёшь об этом.",
+    "edition": "pk",
+    "firstNight": 60,
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkjudge.png"
+  },
+  {
+    "id": "pkchronicler",
+    "name": "Мир — Летописец",
+    "team": "townsfolk",
+    "ability": "В первую ночь узнаёшь двух Демонов: первый сейчас в игре, второй станет следующим, если Корона будет передана.",
+    "edition": "pk",
+    "firstNight": 61,
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkchronicler.png"
+  },
+  {
+    "id": "pkchastity",
+    "name": "Обет целомудрия",
+    "team": "outsider",
+    "ability": "Не можешь вести личные разговоры с игроками противоположного пола или публично защищать их от казни. Нарушишь обет — тебя могут казнить.",
+    "edition": "pk",
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkchastity.png"
+  },
+  {
+    "id": "pkloyalty",
+    "name": "Обет верности",
+    "team": "outsider",
+    "ability": "Каждую ночь выбираешь Лорда. Завтра обязан публично защищать его и не голосовать за его казнь. Если Лорда казнят, ты можешь умереть следующей ночью.",
+    "edition": "pk",
+    "firstNight": 65,
+    "otherNight": 65,
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkloyalty.png"
+  },
+  {
+    "id": "pksilence",
+    "name": "Обет молчания",
+    "team": "outsider",
+    "ability": "Не можешь публично заявлять, что ты Аутсайдер, иначе тебя могут казнить. В финальной тройке обязан голосовать за каждую номинацию, если можешь.",
+    "edition": "pk",
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pksilence.png"
+  },
+  {
+    "id": "pkignorance",
+    "name": "Обет неведения — Дурак",
+    "team": "outsider",
+    "ability": "Ты думаешь, что ты Горожанин, но твоя информация может быть ложной. Публично заявив, что ты Дурак, следующей ночью один раз узнаёшь настоящую команду выбранного игрока.",
+    "edition": "pk",
+    "setup": true,
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkignorance.png"
+  },
+  {
+    "id": "pkpride",
+    "name": "Гордыня — Антихрист",
+    "team": "minion",
+    "ability": "В начале игры 3/4 добрых игрока — тайные Апостолы. Каждую ночь выбираешь игрока: Апостол получает метку и узнаёт об этом. Если помечено большинство исходных живых Апостолов, зло может победить.",
+    "edition": "pk",
+    "firstNight": 30,
+    "otherNight": 30,
+    "reminders": [
+      "Апостол",
+      "Помечен"
+    ],
+    "setup": true,
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkpride.png"
+  },
+  {
+    "id": "pkenvy",
+    "name": "Зависть — Разбойник",
+    "team": "minion",
+    "ability": "Каждую ночь выбери доброго игрока: получаешь его способность, пока не выберешь нового. Жертва узнаёт об ограблении и становится пьяной.",
+    "edition": "pk",
+    "firstNight": 32,
+    "otherNight": 32,
+    "reminders": [
+      "Ограблен"
+    ],
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkenvy.png"
+  },
+  {
+    "id": "pkwrath",
+    "name": "Гнев — Клятвопреступник",
+    "team": "minion",
+    "ability": "Один раз за игру ночью можешь убить своего Демона и назначить живого доброго игрока наследником: он становится злым Демоном следующего вида. Это расходует Корону.",
+    "edition": "pk",
+    "otherNight": 23,
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkwrath.png"
+  },
+  {
+    "id": "pklust",
+    "name": "Похоть — Шантажист",
+    "team": "minion",
+    "ability": "Каждую ночь выбери Подданного и Заложника. Завтра Подданный должен убеждать, что Заложник добрый. Если не делает этого или голосует против, Заложник может умереть ночью.",
+    "edition": "pk",
+    "firstNight": 34,
+    "otherNight": 34,
+    "reminders": [
+      "Подданный",
+      "Заложник"
+    ],
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pklust.png"
+  },
+  {
+    "id": "pkwar",
+    "name": "Война — Злой король",
+    "team": "demon",
+    "ability": "Каждую ночь* выбери игрока: он умирает. Если он добрый, то теряет оставшийся голос мертвеца. Один раз за игру можешь передать Корону.",
+    "edition": "pk",
+    "otherNight": 40,
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkwar.png"
+  },
+  {
+    "id": "pkplague",
+    "name": "Мор — Безумный король",
+    "team": "demon",
+    "ability": "Каждую ночь* выбери до 3 игроков: они отравлены до заката. Если они используют активную способность, один из них может умереть следующей ночью. Можешь один раз передать Корону.",
+    "edition": "pk",
+    "otherNight": 25,
+    "reminders": [
+      "Отравлен"
+    ],
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkplague.png"
+  },
+  {
+    "id": "pkfamine",
+    "name": "Голод — Алчный король",
+    "team": "demon",
+    "ability": "Каждую ночь* выбери двух живых игроков: один умирает, второй получает метку Алчности (макс. 1). Если добрый носитель метки жив в финальной тройке, зло может победить в конце дня.",
+    "edition": "pk",
+    "otherNight": 40,
+    "reminders": [
+      "Алчность"
+    ],
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkfamine.png"
+  },
+  {
+    "id": "pkdeath",
+    "name": "Смерть — Мёртвый король",
+    "team": "demon",
+    "ability": "Каждую ночь* выбери игрока: он умирает. Один раз за игру вместо убийства можешь воскресить мёртвого игрока: его роль и команда сохраняются. Можешь один раз передать Корону.",
+    "edition": "pk",
+    "otherNight": 40,
+    "image": "https://raw.githubusercontent.com/YOUR_USERNAME/padenie-korony/main/icons/pkdeath.png"
+  }
+]
