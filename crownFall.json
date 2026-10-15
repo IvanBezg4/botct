@@ -20,7 +20,7 @@
       "Попадание 1",
       "Попадание 2"
     ],
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pknecromancer.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pknecromancer.png"
   },
   {
     "id": "pkprincess",
@@ -28,7 +28,7 @@
     "team": "townsfolk",
     "ability": "Ты не можешь умереть от способности Демона. Если Демон выбирает тебя целью, узнаёшь его вид. Передача Короны тебе не срабатывает.",
     "edition": "pk",
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkprincess.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkprincess.png"
   },
   {
     "id": "pkprotector",
@@ -36,7 +36,7 @@
     "team": "townsfolk",
     "ability": "Один раз за игру при номинации защищаешь игрока. Если он добрый, его нельзя казнить сегодня; если злой, ты можешь умереть следующей ночью.",
     "edition": "pk",
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkprotector.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkprotector.png"
   },
   {
     "id": "pkwitchhunter",
@@ -44,7 +44,7 @@
     "team": "townsfolk",
     "ability": "Один раз за игру днём публично стреляешь в игрока. Если он Приспешник или Апостол, он умирает. Иначе умираешь ты. Это не считается казнью.",
     "edition": "pk",
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkwitchhunter.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkwitchhunter.png"
   },
   {
     "id": "pkfamiliar",
@@ -56,7 +56,7 @@
     "reminders": [
       "Защищаемый"
     ],
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkfamiliar.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkfamiliar.png"
   },
   {
     "id": "pkbrawler",
@@ -70,7 +70,7 @@
       "Побит",
       "Блаженный лишён дара"
     ],
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkbrawler.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkbrawler.png"
   },
   {
     "id": "pkflagellant",
@@ -79,7 +79,7 @@
     "ability": "Каждую ночь* выбери игрока. Если он должен получить отравление или метку Алчности этой ночью, вместо него получаешь ты и узнаёшь об этом. Ты не можешь быть отравлен",
     "edition": "pk",
     "otherNight": 15,
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkflagellant.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkflagellant.png"
   },
   {
     "id": "pkpatrol",
@@ -88,7 +88,7 @@
     "ability": "Каждую ночь* выбираешь живого игрока. Узнаёшь, выбирал ли его этой ночью Демон или Приспешник своей способностью.",
     "edition": "pk",
     "otherNight": 90,
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkpatrol.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkpatrol.png"
   },
   {
     "id": "pkastrologer",
@@ -97,7 +97,7 @@
     "ability": "Каждую ночь* случайно выбирается живой игрок. Если ты правильно отгадываешь этого игрока, узнаешь его роль",
     "edition": "pk",
     "otherNight": 80,
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkastrologer.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkastrologer.png"
   },
   {
     "id": "pkgeographer",
@@ -107,7 +107,7 @@
     "edition": "pk",
     "firstNight": 70,
     "otherNight": 70,
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkgeographer.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkgeographer.png"
   },
   {
     "id": "pklamb",
@@ -115,7 +115,7 @@
     "team": "townsfolk",
     "ability": "Если тебя казнят, следующей ночью Демон не может убить своей способностью. Если умираешь ночью, ведущий даст тебе совет днем.",
     "edition": "pk",
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pklamb.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pklamb.png"
   },
   {
     "id": "pkseer",
@@ -124,7 +124,7 @@
     "ability": "Каждую ночь* выбери живого игрока. Узнаёшь, есть ли на нём действующие эффекты (отравление, метки, защита и т. п.)",
     "edition": "pk",
     "otherNight": 95,
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkseer.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkseer.png"
   },
   {
     "id": "pkpaladin",
@@ -133,7 +133,7 @@
     "ability": "Каждую ночь* выбери игрока, отличного от выбранного прошлой ночью. Если он добрый, он защищён от смерти этой ночью. Если злой, ты отравлен до заката.",
     "edition": "pk",
     "otherNight": 10,
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkpaladin.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkpaladin.png"
   },
   {
     "id": "pkjudge",
@@ -142,7 +142,7 @@
     "ability": "В первую ночь выбираешь трёх игроков. Узнаёшь, сколько среди них злых: 0, 1, 2 или 3.",
     "edition": "pk",
     "firstNight": 60,
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkjudge.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkjudge.png"
   },
   {
     "id": "pkchronicler",
@@ -151,15 +151,15 @@
     "ability": "В первую ночь узнаёшь двух Демонов: первый сейчас в игре, второй станет следующим, если Корона будет передана.",
     "edition": "pk",
     "firstNight": 61,
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkchronicler.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkchronicler.png"
   },
   {
     "id": "pkchastity",
     "name": "Недотрога",
     "team": "outsider",
-    "ability": "Не можешь вести личные разговоры с игроками противоположного пола или публично защищать их от казни. Нарушишь обет — тебя могут казнить.",
+    "ability": "Не можешь вести личные разговоры с игроками противоположного пола или публично защищать их от казни.",
     "edition": "pk",
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkchastity.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkchastity.png"
   },
   {
     "id": "pkloyalty",
@@ -169,7 +169,7 @@
     "edition": "pk",
     "firstNight": 65,
     "otherNight": 65,
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkloyalty.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkloyalty.png"
   },
   {
     "id": "pksilence",
@@ -177,16 +177,16 @@
     "team": "outsider",
     "ability": "Не можешь публично заявлять, что ты посторонний, иначе тебя могут казнить. В финальной тройке обязан голосовать за каждую номинацию, если можешь.",
     "edition": "pk",
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pksilence.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pksilence.png"
   },
   {
     "id": "pkignorance",
     "name": "Блаженный",
     "team": "outsider",
-    "ability": "Ты думаешь, что ты Горожанин, но твоя информация может быть ложной. Публично заявив, что ты Дурак, следующей ночью один раз узнаёшь настоящую команду выбранного игрока.",
+    "ability": "Ты думаешь, что ты Горожанин, но твоя информация может быть ложной. Публично заявив, что ты Блаженный, следующей ночью один раз узнаёшь настоящую команду выбранного игрока.",
     "edition": "pk",
     "setup": true,
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkignorance.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkignorance.png"
   },
   {
     "id": "pkpride",
@@ -201,11 +201,11 @@
       "Помечен"
     ],
     "setup": true,
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkpride.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkpride.png"
   },
   {
     "id": "pkenvy",
-    "name": "Зависть — Разбойник",
+    "name": "Зависть",
     "team": "minion",
     "ability": "Каждую ночь выбери доброго игрока: получаешь его способность, пока не выберешь нового. Жертва узнаёт об ограблении и становится пьяной.",
     "edition": "pk",
@@ -214,7 +214,7 @@
     "reminders": [
       "Ограблен"
     ],
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkenvy.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkenvy.png"
   },
   {
     "id": "pkwrath",
@@ -223,7 +223,7 @@
     "ability": "Один раз за игру ночью можешь убить своего Демона и назначить живого доброго игрока наследником: он становится злым Демоном следующего вида.",
     "edition": "pk",
     "otherNight": 23,
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkwrath.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkwrath.png"
   },
   {
     "id": "pklust",
@@ -237,7 +237,7 @@
       "Подданный",
       "Заложник"
     ],
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pklust.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pklust.png"
   },
   {
     "id": "pkwar",
@@ -246,7 +246,7 @@
     "ability": "Каждую ночь* выбери игрока: он умирает. Если он добрый, то теряет оставшийся голос мертвеца. Один раз за игру можешь передать Корону.",
     "edition": "pk",
     "otherNight": 40,
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkwar.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkwar.png"
   },
   {
     "id": "pkplague",
@@ -258,7 +258,7 @@
     "reminders": [
       "Отравлен"
     ],
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkplague.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkplague.png"
   },
   {
     "id": "pkfamine",
@@ -270,7 +270,7 @@
     "reminders": [
       "Алчность"
     ],
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkfamine.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkfamine.png"
   },
   {
     "id": "pkdeath",
@@ -279,6 +279,6 @@
     "ability": "Каждую ночь* выбери игрока: он умирает. Один раз за игру вместо убийства можешь воскресить мёртвого игрока: его роль и команда сохраняются. Один раз за игру можешь передать Корону.",
     "edition": "pk",
     "otherNight": 40,
-    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/botct/icons/pkdeath.png"
+    "image": "https://raw.githubusercontent.com/IvanBezg4/botct/main/icons/pkdeath.png"
   }
 ]
